@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.page-header {
+    /*border: 2px solid aqua;*/
+
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../images/pic3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+#handle-opacity{
+    /*border: 2px solid red;*/
+    height: 100%;
+    width:100%;
+    background-color: rgba(242, 242, 242,0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.page-header h1{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color:#212529;
+}
+
+.page-header h3{
+
+}
+.page-header a{
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    font-size: 2.5rem;
+
+
+
+}
+
+.page-header a:hover{
+    text-decoration: none;
+
+}
+
+@media (min-width: 992px){
+
+    .page-header h1 {
+        font-size: 4.5rem;
+    }
+    .page-header h3{
+
+    }
+}
+
+
+.menu-toggle{
+    position: fixed;
+
+}
+
+#sidebar-wrapper{
+    position: fixed;
+    float: right;
+    height: 100%;
+    /*border: 2px solid red;*/
+    width: 20%;
+    margin-right: 250px;
+    background-color: rgba(52, 58, 64, 0.46);
+}
+
+
+.sidebar-nav-item{
+    font-size: 2rem;
+
+}
+
+.sidebar-nav-item a{
+color:whitesmoke;
+    font-family: 'Caveat', cursive;
+}
+
+
+
+#about{
+
+    width: 100%;
+    min-height:60%;
+    background-color: #f8f9fa;
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+    /*font-family: 'Kalam', cursive;*/
+    /*font-family: 'Courgette', cursive;*/
+    /*font-family: 'Arima Madurai', cursive;*/
+    /*font-family: 'Marck Script', cursive;*/
+    /*font-family: 'Forum', cursive;*/
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+    word-spacing: 0.5rem;
+
+
+}
+
+
+#about h3{
+
+    font-size: 5vh;
+    color:#212529;
+}
+
+#about p{
+    font-size: 3.5vh;
+    color:#212529;
+}
+
+#about a{
+    font-size: 3vh;
+    padding:12px 30px;
+    border-radius: 30px;
+}
+
+
+.parallax-1{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../images/me6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    border-bottom:1.3px solid #23272b;
+}
+
+
+
+.parallax-2{
+    /*height: 40%;*/
+    /*width: 100%;*/
+    /*!*background-size: cover;*!*/
+    /*!*background-attachment: fixed;*!*/
+    /*!*background-image: url('../images/pic1.png');*!*/
+    /*!*background-repeat: no-repeat;*!*/
+    /*!*background-position: center;*!*/
+    /*!*opacity: 0.6;*!*/
+    /*background-color: #212529;*/
+}
+
+
+#portfolio {
+    width: 100%;
+    min-height: 50%;
+    background-color: #f8f9fa;
+}
+
+
+#portfolio h1{
+    border-bottom: 2px solid #212529;
+    padding-top: 3%;
+    font-family: 'Caveat', cursive;
+}
+
+
+#portfolio img{
+    width:100%;
+    /*margin:0;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (min-width: 600px){
+    .upper-half{
+        margin-bottom: 3%;
+    }
+    #portfolio img{
+        height: 337.5px;
+    }
+
+}
+
+#portfolio a{
+    opacity: 1;
+
+}
+#portfolio a:hover{
+opacity:0.7;
+}
+
+.contact-section{
+    height: 200px;
+    width: 100%;
+    background-color: #212529;
+}
+
