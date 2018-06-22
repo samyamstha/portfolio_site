@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css\style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
     <!--Custom fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Caveat|Courgette|Forum|Kalam|Marck+Script" rel="stylesheet">
@@ -21,9 +22,9 @@
 
 </head>
 <body id="top">
-<a class="menu-toggle" href="#">
+<!-- <a class="menu-toggle" href="#">
     <i class="fa fa-bars"></i>
-</a>
+</a> -->
 <!--<nav id="sidebar-wrapper">-->
     <!--<ul class="sidebar-nav">-->
 
@@ -57,30 +58,23 @@
     </div>
 </div>
 
-
 <!--header ends-->
 
 <!--about-->
 <div id="about" class="d-flex">
 
-
-
         <!--<div  id="about-first-half">-->
             <div class="container">
-                <h3 id="greetings" class="text-center">Hey!</h3>
+                <div class="col-md-12" id="about-content">
+                <h3 id="greetings" class="text-center">Hi there!</h3>
+                <p>&nbsp&nbsp&nbspNice to see you here. I am a <b>Computer Science</b> student at <b>Drexel University</b>. Along with academic experience in the field of Computer Science, I also have a professional experience in the field of <b>Agile Software Development</b>. My skills include but are not limited to <b>SpringBoot</b>, <b>Spring MVC</b>, <b>Spring Data JPA</b>, <b>Hibernate</b>, <b>Angular</b>, <b>Python</b>. Apart from Software Development, I am open to other aspects of Computer Science. Moreover, the tracks I have selected for my undergraduate are <b>Software Engineering</b> and <b>Artificial Intelligence</b>.</p>
 
-                <p>I am a Computer Science student at Drexel University. Ut consectetur aliquam tortor.
-                    Aliquam molestie facilisis convallis. Duis sagittis sapien a imperdiet euismod. Cras sodales
-                    odio pulvinar libero viverra, non condimentum odio congue. Nulla tempus orci ut urna tincidunt,
-                    nec maximus eros commodo. Duis lacinia rhoncus condimentum. Nullam ac tellus vestibulum leo aliquam finibus.
-                    Sed vel dolor nisl. Aliquam maximus tempor ultrices. Nunc eu nibh eget tellus tincidunt aliquet nec viverra ex.
-                    Vestibulum pretium malesuada erat. Pellentesque viverra sodales sem, in malesuada dui pulvinar et.
-                    Sed et porttitor libero. Morbi hendrerit pretium porttitor. Vestibulum cursus nulla in lacinia vestibulum.</p>
-
-                <center><a class="btn btn-dark btn-xl scrolling-trigger" href="#portfolio">Some of My Works</a></center>
-
+                <center><a class="btn btn-dark scrolling-trigger mt-1" href="#portfolio" >Some of My Works</a></center>
+               </div>
+                </div>
             </div>
         </div>
+
 
 <!--</div>-->
 
@@ -107,22 +101,22 @@
 
     <div class="row upper-half">
 
-            <div class="col-md-6 col-lg-6" id="python">
+            <div class="col-md-6 col-lg-6 portfolio_images" id="python">
                 <a href="https://github.com/samyamstha/Python" target="_blank"><img src="images\python1.jpg" class="img-responsive" alt="python-image"></a>
             </div>
-            <div class="col-md-6 col-lg-6">
+            <div class="col-md-6 col-lg-6 portfolio_images">
                 <a href="#" ><img src="images\java.png" class="img-responsive" alt="java-image"></a>
 
             </div>
             </div>
 
-            <div class="row lower-half mb-5">
-                <div class="col-md-6 col-lg-6" id="web">
+            <div class="row lower-half mb-5 ">
+                <div class="col-md-6 col-lg-6 portfolio_images" id="web">
 
                     <a href="#" ><img src="images\web-design.jpg" class="img-responsive" alt="web-design"></a>
 
                 </div>
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-6 col-lg-6 portfolio_images">
                     <a href="http://passionatewrites.blogspot.com/" target="_blank"><img src="images\write.jpg" class="img-responsive" alt="writings"></a>
 
                 </div>
@@ -160,8 +154,8 @@
 
         $("#type1").typed({
             strings:["Samyam Chandra Shrestha", "Site Under Construction!"] ,
-            typeSpeed: 5,
-            backDelay:1000,
+            typeSpeed: 8,
+            backDelay:700,
             loop:false,
             showCursor: false ,
             cursorChar: ""
@@ -169,8 +163,8 @@
 
 
         $("#type2").typed({
-            strings:["^4000Know  Me Better"] ,
-            typeSpeed: 5,
+            strings:["^4500Know  Me Better"] ,
+            typeSpeed: 10,
             backDelay:1000,
             loop:false,
             showCursor: false ,

@@ -65,18 +65,36 @@ body,html{
     .page-header h1 {
         font-size: 4.5rem;
     }
-    .page-header h3{
 
+    #about-content {
+        margin-top: 25vh;   
+    }
+
+    
+}
+
+/*Styles for smaller screens*/
+@media screen and (max-width: 600px){
+   
+     #about-content {
+        margin-top: 5vh;   
+    }
+
+    #about-content a{
+        margin-bottom: 2rem;
+    }
+
+    .portfolio_images{
+        margin-bottom: 1.5rem;
     }
 }
 
-
 .menu-toggle{
     position: fixed;
-
 }
 
 #sidebar-wrapper{
+
     position: fixed;
     float: right;
     height: 100%;
@@ -84,10 +102,12 @@ body,html{
     width: 20%;
     margin-right: 250px;
     background-color: rgba(52, 58, 64, 0.46);
+
 }
 
 
 .sidebar-nav-item{
+
     font-size: 2rem;
 
 }
@@ -102,9 +122,9 @@ color:whitesmoke;
 #about{
 
     width: 100%;
-    min-height:60%;
-    background-color: #f8f9fa;
-    text-align: justify;
+    min-height:100%;
+    /*background-color: #f8f9fa;*/
+   
     font-family: 'Caveat', cursive;
     /*font-family: 'Kalam', cursive;*/
     /*font-family: 'Courgette', cursive;*/
@@ -112,10 +132,9 @@ color:whitesmoke;
     /*font-family: 'Marck Script', cursive;*/
     /*font-family: 'Forum', cursive;*/
 
-    padding-top: 3%;
-    padding-bottom: 3%;
+    /*padding-top: 3%;*/
+    /*padding-bottom: 3%;*/
     word-spacing: 0.5rem;
-
 
 }
 
@@ -132,7 +151,7 @@ color:whitesmoke;
 }
 
 #about a{
-    font-size: 3vh;
+    font-size: 2.5vh;
     padding:12px 30px;
     border-radius: 30px;
 }
@@ -181,19 +200,15 @@ color:whitesmoke;
 
 #portfolio img{
     width:100%;
-    /*margin:0;*/
+    height: 337.5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (min-width: 600px){
-    .upper-half{
-        margin-bottom: 3%;
-    }
-    #portfolio img{
-        height: 337.5px;
-    }
-
+.upper-half{
+    margin-bottom: 3%;
 }
+
+
 
 #portfolio a{
     opacity: 1;
