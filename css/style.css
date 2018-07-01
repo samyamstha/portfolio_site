@@ -77,12 +77,6 @@ body,html{
         margin-bottom: 1.5rem;
     }
 
-    .parallax-1 {
-        width: 100vw;
-        border-bottom: 1.3px solid #23272b;
-        background-position: center center;
-    }
-
 }
 
 .menu-toggle{
