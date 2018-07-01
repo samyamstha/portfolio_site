@@ -10,32 +10,23 @@ body,html{
 }
 
 .page-header {
-    /*border: 2px solid aqua;*/
-
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
     background-image: url('../images/pic3.png');
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 
 #handle-opacity{
-    /*border: 2px solid red;*/
     height: 100%;
     width:100%;
     background-color: rgba(242, 242, 242,0.1);
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-
-
 }
-
 
 .page-header h1{
     font-family: 'Lobster', cursive;
@@ -46,13 +37,11 @@ body,html{
 .page-header h3{
 
 }
+
 .page-header a{
     font-family: 'Lobster', cursive;
     text-decoration: none;
     font-size: 2.5rem;
-
-
-
 }
 
 .page-header a:hover{
@@ -67,7 +56,7 @@ body,html{
     }
 
     #about-content {
-        margin-top: 25vh;   
+        margin-top: 18vh;
     }
 
     
@@ -87,6 +76,13 @@ body,html{
     .portfolio_images{
         margin-bottom: 1.5rem;
     }
+
+    .parallax-1 {
+        width: 100vw;
+        border-bottom: 1.3px solid #23272b;
+        background-position: center center;
+    }
+
 }
 
 .menu-toggle{
@@ -117,27 +113,14 @@ color:whitesmoke;
     font-family: 'Caveat', cursive;
 }
 
-
-
 #about{
 
     width: 100%;
     min-height:100%;
-    /*background-color: #f8f9fa;*/
-   
     font-family: 'Caveat', cursive;
-    /*font-family: 'Kalam', cursive;*/
-    /*font-family: 'Courgette', cursive;*/
-    /*font-family: 'Arima Madurai', cursive;*/
-    /*font-family: 'Marck Script', cursive;*/
-    /*font-family: 'Forum', cursive;*/
-
-    /*padding-top: 3%;*/
-    /*padding-bottom: 3%;*/
     word-spacing: 0.5rem;
 
 }
-
 
 #about h3{
 
@@ -162,25 +145,12 @@ color:whitesmoke;
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url('../images/me6.jpg');
+    background-image: url('../images/web_image1.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    /*background-position: center;*/
     opacity: 0.7;
     border-bottom:1.3px solid #23272b;
-}
-
-
-
-.parallax-2{
-    /*height: 40%;*/
-    /*width: 100%;*/
-    /*!*background-size: cover;*!*/
-    /*!*background-attachment: fixed;*!*/
-    /*!*background-image: url('../images/pic1.png');*!*/
-    /*!*background-repeat: no-repeat;*!*/
-    /*!*background-position: center;*!*/
-    /*!*opacity: 0.6;*!*/
-    /*background-color: #212529;*/
+    background-position: center center;
 }
 
 
